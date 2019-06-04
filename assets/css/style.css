@@ -152,7 +152,7 @@ button:focus {
     margin-left: 35%;
     margin-right: 65%;
     margin-top: 330px;
-    border-radius: 30px;
+    border-radius: 10px;
     z-index: 0;
   }
 
@@ -167,7 +167,7 @@ button:focus {
     margin-left: 35%;
     margin-right: 65%;
     margin-top: 330px;
-    border-radius: 30px;
+    border-radius: 10px;
     z-index: 0;
   }
 
@@ -182,7 +182,7 @@ button:focus {
     margin-left: 35%;
     margin-right: 65%;
     margin-top: 330px;
-    border-radius: 30px;
+    border-radius: 20px;
     z-index: 0;
   }
 

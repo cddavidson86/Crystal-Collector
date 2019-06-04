@@ -83,7 +83,7 @@
     function myMove1() {
         var elem = document.getElementById("myAnimation1");   
         var pos = 0;
-        var id = setInterval(frame, 6);
+        var id = setInterval(frame, 9);
         function frame() {
           if (pos == 45) {
             clearInterval(id);
@@ -99,7 +99,7 @@
       function myMove2() {
         var elem = document.getElementById("myAnimation2");   
         var pos = 0;
-        var id = setInterval(frame, 6);
+        var id = setInterval(frame, 9);
         function frame() {
           if (pos == 45) {
             clearInterval(id);
@@ -115,7 +115,7 @@
       function myMove3() {
         var elem = document.getElementById("myAnimation3");   
         var pos = 0;
-        var id = setInterval(frame, 6);
+        var id = setInterval(frame, 9);
         function frame() {
           if (pos == 45) {
             clearInterval(id);
@@ -131,7 +131,7 @@
       function myMove4() {
         var elem = document.getElementById("myAnimation4");   
         var pos = 0;
-        var id = setInterval(frame, 6);
+        var id = setInterval(frame, 9);
         function frame() {
           if (pos == 45) {
             clearInterval(id);
