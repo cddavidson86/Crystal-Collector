@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Da&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+</head>
+<body>
+    
+    
+
+<div class="container">
+
+    <!-- Title -->
+    <div class="row">
+        <div class="col-md-12" id="title"><h1>Crystal Collector</h1></div>
+    </div>
+
+    <!-- top row -->
+    <div class="row">
+        <div class="col-md-4" id="random-number"><h2>Total to hit:</h2><h2 id="total-to-hit"></h2></div>
+        <div class="col-md-8" id="total-score"><h2>Total score:</h2><h2 id="total-scr"></h2></div>
+    </div>
+
+    <!-- middle row -->
+    <div class="row">
+        <div class="col-md-4" id="instructions">
+            <h2>Instructions:</h2>
+            <p>You will be shown a random number at the start of the game.</p>
+            <p>When you click on a crystal, it will add a specific amount of points to your total score.</p>     
+            <p>The total amount of each crystal will be hidden.</p>
+            <p>Try to hit the total without busting.</p>
+        </div>
+        <div class="col-md-2" id="first-fireball"><div id ="myAnimation1"></div></div>
+        <div class="col-md-2" id="second-fireball"><div id ="myAnimation2"></div></div>
+        <div class="col-md-2" id="third-fireball"><div id ="myAnimation3"></div></div>
+        <div class="col-md-2" id="fourth-fireball"><div id ="myAnimation4"></div></div>
+    </div>
+
+    <!-- bottom row -->
+    <div class="row bottom-row">
+        <div class="col-md-4" id="space-saver"><h2 id="wins"></h2><h2 id="losses"></h2></div>
+        <div class="col-md-2 a-button" id="button-1">
+            <button id="first-gem" class="a-button-1" onclick="myMove1()"></button>
+        </div>
+        <div class="col-md-2 a-button" id="button-2">
+            <button id="second-gem" class="a-button-2" onclick="myMove2()"></button>
+        </div>
+        <div class="col-md-2 a-button" id="button-3">
+            <button id="third-gem" class="a-button-3" onclick="myMove3()"></button>
+        </div>
+        <div class="col-md-2 a-button" id="button-4">
+            <button id="fourth-gem" class="a-button-4" onclick="myMove4()"></button>
+        </div>
+    </div>
+
+
+
+</div>
+
+    <div class="row">
+        <div class="col-md-10" id="footer"><h1 style="text-align: center; font-size: 40px;">Crystal Collector</h1></div>
+    </div>
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
